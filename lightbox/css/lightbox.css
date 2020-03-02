@@ -63,7 +63,7 @@ justify-items: center;
     display: grid;
     align-items: center;
     justify-items: center;
-    overflow: auto;
+    overflow: hidden;
 }
 .modaallInhoud{
     background-color: white;
@@ -71,8 +71,8 @@ justify-items: center;
     max-width: 50vw;
     max-height: calc(90vh-2em);
     margin-top: 1em;
-    /* overflow: auto; */
-    animation: vanOnder .4s cubic-bezier(.12,.96,1,-0.31) forwards;
+    overflow: auto;
+    margin-top: 90vh;
 }
 .sk{
    float: right;
