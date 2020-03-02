@@ -29,6 +29,7 @@ function box(nummer){
     inhoud.addEventListener('click', function(e){
     e.stopPropagation();
     });
+    gsap.to(inhoud, {marginTop: 0, duration: 1, ease: "steps(12)"});
 
     modaall.append(inhoud);
     inhoud.prepend(sluitknop);
